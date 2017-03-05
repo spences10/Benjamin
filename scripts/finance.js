@@ -1,5 +1,5 @@
-//Simple interest calculation
+//Simple interest calculator
 function simpleCalc() {
-		var sCalc = document.getElementById('princ').value * document.getElementById('percent').value * document.getElementById('time'); 
-		document.getElementById('answer'),innerHTML = parseInt(sCalc);
-}
+	var sCalc = document.getElementById('princ').value * document.getElementById('percent').value * document.getElementById('time').value; 
+	document.getElementById('answer').innerHTML = sCalc;
+}	
