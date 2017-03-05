@@ -11,10 +11,10 @@
 		<span>T<input id="time" type="text"></span> = 
 		<span id ="answer"></span>
 		<button id="simpleInterestButton" onclick="simpleCalc()">Calculate</button>
-		<script type="text/js">
+		<script>
 			function simpleCalc() {
 				var sCalc = document.getElementById('princ').value * document.getElementById('percent').value * document.getElementById('time'); 
-				document.getElementById('answer'),innerHTML = parseInt(sCalc);
+				document.getElementById('answer').innerHTML = parseInt(sCalc);
 			}	
 		</script>
 	</body>
