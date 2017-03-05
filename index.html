@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	</head>
+	<body>
+		<div class="head">
+			<h1>Benjamin</h1>
+			<h2>A Modern Finance App for the Modern World</h2>
+		</div>
+		<h3>Simple intrest Calculator</h3><br>
+`		<div class="card-panel teal lighten-2">
+			<p><span>Principal</span> => <span>percent</span> => <span>years</span></p>
+			<br>
+			<span>$<input id="princ" type="text"></span> x
+			<span>%<input id="percent" type="text"></span> x
+			<span>T<input id="time" type="text"></span> = 
+			<span id ="answer"></span>
+			<button id="simpleInterestButton" onclick="simpleCalc()">Calculate</button>
+		</div>
+		<script src="scripts/finance.js"></script>
+	</body>
+</html>
