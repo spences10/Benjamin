@@ -25,4 +25,7 @@ body {
 #nav-toggle span:after {
   bottom: -10px; 
 }
+.content {
+  margin:20px;
+}
 
