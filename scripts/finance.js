@@ -21,7 +21,7 @@ function budgetCalc() {
 
 var addBtn = document.getElementById('addButton');
 	addBtn.addEventListener('click', function() {
-		var vnode = document.createElement('<input type="text" class="budgetInput">');
+		var vnode = document.createElement('input type="text" class="budgetInput"');
 		var list = document.getElementById('list')
 		list.appendChild(vnode);
 	});
