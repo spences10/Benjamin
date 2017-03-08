@@ -12,9 +12,8 @@ function profitCalc() {
 
 //Budget Calculator
 function budgetCalc() {
-	
 	var bCalc= document.getElementsByClassName('budgetInput').value + 0;
-	
+	document.getElementById('bAnswer').innerHTML = '$' + ' ' + bCalc;
 }
 
 //Event listener for the Add button on the budget page
