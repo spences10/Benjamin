@@ -23,7 +23,7 @@ var addBtn = document.getElementById('addButton');
 	addBtn.addEventListener('click', function() {
 		var vnode = document.createElement('input');
 		vnode.className = "budgetInput";
-		vnode.placeholder  "$ Amount";
+		vnode.placeholder = "$ Amount";
 		var list = document.getElementById('list');
 		list.appendChild(vnode);
 	});
