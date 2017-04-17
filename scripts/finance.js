@@ -2,6 +2,7 @@
 function simpleCalc() {
 	var sCalc = document.getElementById('princ').value * document.getElementById('percent').value * document.getElementById('time').value; 
 	document.getElementById('answer').innerHTML = '$' + ' ' + sCalc;
+<<<<<<< HEAD
 }
 
 //Profit Calculator
@@ -27,3 +28,10 @@ var addBtn = document.getElementById('addButton');
 		list.appendChild(vnode);
 	});
 
+=======
+}	
+
+function formatPrice(cents) {
+  return `$${(cents / 100).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+}
+>>>>>>> 20d6a5bc165975450ff3cd490b8b05ff82945db4
